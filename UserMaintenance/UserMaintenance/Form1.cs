@@ -34,12 +34,16 @@ namespace UserMaintenance
 
         private void button1_Click(object sender, EventArgs e)
         {
+            List<User> userlista = userssajat();
+
+            
             var u = new User()
             {
                 FullName = textBox1.Text
                 //FirstName = textBox2.Text
             };
-            users.Add(u);
+            userlista.Add(u);
+            listBox1.DataSource = userlista;
 
             textBox1.Clear();
         }
