@@ -40,9 +40,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(355, 151);
+            this.button1.Location = new System.Drawing.Point(409, 151);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(213, 23);
+            this.button1.Size = new System.Drawing.Size(159, 23);
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
@@ -59,7 +59,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(352, 55);
+            this.label1.Location = new System.Drawing.Point(332, 55);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 2;
@@ -68,7 +68,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(355, 107);
+            this.label2.Location = new System.Drawing.Point(332, 107);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 3;
@@ -90,9 +90,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(355, 196);
+            this.button2.Location = new System.Drawing.Point(409, 196);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(213, 23);
+            this.button2.Size = new System.Drawing.Size(159, 23);
             this.button2.TabIndex = 6;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
@@ -100,9 +100,9 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(355, 241);
+            this.button3.Location = new System.Drawing.Point(409, 241);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(213, 23);
+            this.button3.Size = new System.Drawing.Size(159, 23);
             this.button3.TabIndex = 7;
             this.button3.Text = "törlés";
             this.button3.UseVisualStyleBackColor = true;
