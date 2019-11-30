@@ -40,6 +40,8 @@ namespace UserMaintenance
                 //FirstName = textBox2.Text
             };
             users.Add(u);
+
+            textBox1.Clear();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -78,6 +80,38 @@ namespace UserMaintenance
             MessageBox.Show("A fájlba írás megtörtént");
 
             Application.Exit();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            List<User> userlista = userssajat();
+
+            listBox1.DataSource = userlista;
+            /*
+            foreach (User u in listBox1.Items)
+            {
+                if (u.FullName==textBox1.Text)
+                {
+                    listBox1.Items.Remove(u);
+                }
+            }
+            */
+            textBox1.Clear();
+        }
+
+        public List<User> userssajat()
+        {
+            List<User> userek = new List<User>();
+
+            foreach (User item in listBox1.Items)
+            {
+                if (item.FullName!=textBox1.Text)
+                {
+                    userek.Add(item);
+                }
+            }
+
+            return userek;
         }
     }
 }
